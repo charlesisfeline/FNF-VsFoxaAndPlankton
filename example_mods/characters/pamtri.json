@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SpongDle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				-48
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SpongDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				73,
+				2
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SpongRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				4
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SpongLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				23
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SpongUp",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pamtri",
+	"position": [
+		0,
+		340
+	],
+	"healthicon": "pamtri",
+	"flip_x": false,
+	"healthbar_colors": [
+		145,
+		126,
+		25
+	],
+	"camera_position": [
+		-130,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1.4
+}

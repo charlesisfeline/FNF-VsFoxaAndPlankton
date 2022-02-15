@@ -1,0 +1,299 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "eddhouse-tord",
+		"player1": "bf",
+		"player2": "edd",
+		"player3": null,
+		"events": [
+			[
+				73467.7419354839,
+				[
+					[
+						"Camera Follow Pos",
+						"830",
+						"450"
+					]
+				]
+			],
+			[
+				74838.7096774194,
+				[
+					[
+						"Camera Follow Pos",
+						"830",
+						"150"
+					],
+					[
+						"Screen Shake",
+						"5, 0.005",
+						""
+					]
+				]
+			],
+			[
+				74919.3548387097,
+				[
+					[
+						"Change Character",
+						"dad",
+						"edd-tordcutsene"
+					],
+					[
+						"Play Animation",
+						"what",
+						"dad"
+					],
+					[
+						"Change Character",
+						"bf",
+						"bf-tordcutscene"
+					],
+					[
+						"Play Animation",
+						"what",
+						"bf"
+					]
+				]
+			],
+			[
+				76129.0322580645,
+				[
+					[
+						"Camera Follow Pos",
+						"830",
+						"-450"
+					]
+				]
+			],
+			[
+				76129.0322580645,
+				[
+					[
+						"Play Animation",
+						"lookin",
+						"dad"
+					],
+					[
+						"Play Animation",
+						"lookin",
+						"bf"
+					]
+				]
+			],
+			[
+				82580.6451612904,
+				[
+					[
+						"Change Character",
+						"gf",
+						"tord"
+					]
+				]
+			],
+			[
+				82590.7258064516,
+				[
+					[
+						"Play Animation",
+						"singUP-alt",
+						"gf"
+					]
+				]
+			],
+			[
+				82903.2258064516,
+				[
+					[
+						"Play Animation",
+						"singUP-alt",
+						"gf"
+					]
+				]
+			],
+			[
+				83225.8064516129,
+				[
+					[
+						"Play Animation",
+						"singUP-alt",
+						"gf"
+					]
+				]
+			],
+			[
+				83548.3870967742,
+				[
+					[
+						"Play Animation",
+						"singUP-alt",
+						"gf"
+					]
+				]
+			],
+			[
+				91290.3225806452,
+				[
+					[
+						"Change Character",
+						"dad",
+						"slide-edd"
+					]
+				]
+			],
+			[
+				101612.903225807,
+				[
+					[
+						"Change Character",
+						"bf",
+						"slide-bf"
+					]
+				]
+			],
+			[
+				105806.451612903,
+				[
+					[
+						"Change Character",
+						"gf",
+						"tord2"
+					],
+					[
+						"Play Animation",
+						"pissed",
+						"gf"
+					]
+				]
+			],
+			[
+				107016.129032258,
+				[
+					[
+						"Change Character",
+						"gf",
+						"tord"
+					]
+				]
+			],
+			[
+				160000,
+				[
+					[
+						"Change Character",
+						"gf",
+						"tord2"
+					],
+					[
+						"Play Animation",
+						"harpoon",
+						"gf"
+					]
+				]
+			],
+			[
+				160000,
+				[
+					[
+						"Screen Shake",
+						"4, 0.005",
+						""
+					]
+				]
+			],
+			[
+				160080.64516129,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bf-tordcutscene"
+					]
+				]
+			],
+			[
+				160967.741935484,
+				[
+					[
+						"Change Character",
+						"dad",
+						"edd-tordcutsene"
+					]
+				]
+			],
+			[
+				161854.838709677,
+				[
+					[
+						"Play Animation",
+						"harpoonline",
+						"gf"
+					]
+				]
+			],
+			[
+				162580.64516129,
+				[
+					[
+						"Change Character",
+						"gf",
+						"gf"
+					]
+				]
+			],
+			[
+				162580.64516129,
+				[
+					[
+						"Play Animation",
+						"looking",
+						"bf"
+					],
+					[
+						"Play Animation",
+						"looking",
+						"dad"
+					]
+				]
+			],
+			[
+				163870.967741935,
+				[
+					[
+						"Screen Shake",
+						"2, 0.02",
+						""
+					]
+				]
+			],
+			[
+				164193.548387097,
+				[
+					[
+						"Camera Follow Pos",
+						"830",
+						"450"
+					]
+				]
+			],
+			[
+				168387.096774194,
+				[
+					[
+						"Play Animation",
+						"tom",
+						"dad"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 186,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "ChallengEdd-Fucked"
+	}
+}

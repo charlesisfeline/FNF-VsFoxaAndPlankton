@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				-39,
+				47
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Sing Up"
+		},
+		{
+			"offsets": [
+				4,
+				-50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Sing Down"
+		},
+		{
+			"offsets": [
+				-38,
+				52
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Sing Right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Sing Left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/foxa",
+	"position": [
+		0,
+		-20
+	],
+	"healthicon": "foxa",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		209,
+		255
+	],
+	"camera_position": [
+		70,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

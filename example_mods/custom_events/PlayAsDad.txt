@@ -1,0 +1,7 @@
+lets you play as the enemy
+recommended to put at start of song
+also recommended for the character to have miss poses. MAKE SURE THEY DO!
+
+Value1:
+-true
+-false

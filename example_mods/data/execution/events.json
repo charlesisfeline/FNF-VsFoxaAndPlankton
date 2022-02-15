@@ -1,0 +1,69 @@
+{
+	"song": {
+		"speed": 2.7,
+		"stage": "whitty-alley",
+		"player1": "bf",
+		"player2": "foxa-angry",
+		"player3": null,
+		"events": [
+			[
+				5333.33333333333,
+				[
+					[
+						"unfairSpin",
+						"",
+						""
+					],
+					[
+						"Change Character",
+						"dad",
+						"foxa-mad"
+					],
+					[
+						"Change Botplay Text",
+						"CHEATER",
+						""
+					],
+					[
+						"Change Scroll Speed",
+						"2.7",
+						"0.05"
+					],
+					[
+						"whiteflash",
+						"",
+						""
+					]
+				]
+			],
+			[
+				16000,
+				[
+					[
+						"Toggle Trail",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				21333.3333333333,
+				[
+					[
+						"Toggle Trail",
+						"1",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 180,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Execution"
+	}
+}

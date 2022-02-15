@@ -1,0 +1,24 @@
+{
+	"position": [
+		90,
+		80
+	],
+	"dialogue_pos": "left",
+	"scale": 1.75,
+	"image": "port_mad",
+	"animations": [
+		{
+			"idle_offsets": [
+				-1,
+				-12
+			],
+			"loop_offsets": [
+				0,
+				-8
+			],
+			"anim": "talk",
+			"idle_name": "portraitstop",
+			"loop_name": "portrait"
+		}
+	]
+}

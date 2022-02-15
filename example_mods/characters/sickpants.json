@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SpongDle"
+		},
+		{
+			"offsets": [
+				51,
+				-48
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "SpongDown"
+		},
+		{
+			"offsets": [
+				73,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SpongRight"
+		},
+		{
+			"offsets": [
+				51,
+				4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SpongLeft"
+		},
+		{
+			"offsets": [
+				-7,
+				23
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "SpongUp"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sickpants",
+	"position": [
+		0,
+		340
+	],
+	"healthicon": "sickpants",
+	"flip_x": false,
+	"healthbar_colors": [
+		218,
+		194,
+		67
+	],
+	"camera_position": [
+		-130,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1.4
+}

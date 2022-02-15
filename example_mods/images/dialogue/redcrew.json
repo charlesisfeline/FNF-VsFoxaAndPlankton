@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-90,
+		-170
+	],
+	"scale": 1,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "redcrew happy",
+			"idle_name": "redcrew happy0000"
+		},
+		{
+			"loop_offsets": [
+				5,
+				50
+			],
+			"anim": "excited",
+			"idle_offsets": [
+				5,
+				50
+			],
+			"loop_name": "redcrew sus",
+			"idle_name": "redcrew sus0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "pissed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "redcrew nervous",
+			"idle_name": "redcrew nervous0000"
+		},
+		{
+			"loop_offsets": [
+				46,
+				0
+			],
+			"anim": "shocked",
+			"idle_offsets": [
+				46,
+				0
+			],
+			"loop_name": "redcrew scared",
+			"idle_name": "redcrew scared0000"
+		}
+	],
+	"image": "redcrew_Dialogue"
+}

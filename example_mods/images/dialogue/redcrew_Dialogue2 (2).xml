@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="redcrew_Dialogue.png"><SubTexture name="redcrew HAPPY LOOP0000" x="0" y="0" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew HAPPY LOOP0001" x="889" y="0" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew HAPPY LOOP0002" x="1778" y="0" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew HAPPY LOOP0003" x="2667" y="0" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew HAPPY LOOP0004" x="3556" y="0" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew HAPPY LOOP0005" x="0" y="864" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew HAPPY LOOP0006" x="889" y="864" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew HAPPY LOOP0007" x="1778" y="864" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew HAPPY LOOP0008" x="2667" y="864" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew HAPPY LOOP0009" x="3556" y="864" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew HAPPY LOOP0010" x="0" y="1728" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew HAPPY LOOP0011" x="889" y="1728" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0000" x="1778" y="1728" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0001" x="2667" y="1728" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0002" x="3556" y="1728" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0003" x="0" y="2592" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0004" x="889" y="2592" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0005" x="1778" y="2592" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0006" x="2667" y="2592" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0007" x="3556" y="2592" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0008" x="0" y="3456" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0009" x="889" y="3456" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0010" x="1778" y="3456" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0011" x="2667" y="3456" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0012" x="3556" y="3456" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0013" x="0" y="4320" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew scared0000" x="889" y="4320" width="916" height="910" frameX="0" frameY="0" frameWidth="916" frameHeight="910" />
+<SubTexture name="redcrew scared0001" x="1805" y="4320" width="916" height="910" frameX="0" frameY="0" frameWidth="916" frameHeight="910" />
+</TextureAtlas>

@@ -1,0 +1,59 @@
+{
+	"song": {
+		"speed": 2.5,
+		"stage": "whitty-alley",
+		"player1": "bf",
+		"player2": "foxa",
+		"player3": null,
+		"events": [
+			[
+				60000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"foxa-angry"
+					],
+					[
+						"unfairSpin",
+						"",
+						""
+					],
+					[
+						"Change Botplay Text",
+						"LEAVE ME ALONE",
+						""
+					],
+					[
+						"whiteflash",
+						"",
+						""
+					]
+				]
+			],
+			[
+				93166.6666666666,
+				[
+					[
+						"whiteflash",
+						"",
+						""
+					],
+					[
+						"Screen Shake",
+						"0.5",
+						"0.05"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 180,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Burning-Flames"
+	}
+}

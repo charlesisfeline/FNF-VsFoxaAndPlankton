@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				179,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "angryplank idle"
+		},
+		{
+			"offsets": [
+				211,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "angryplank left"
+		},
+		{
+			"offsets": [
+				190,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "angryplank right"
+		},
+		{
+			"offsets": [
+				189,
+				4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "angryplank up"
+		},
+		{
+			"offsets": [
+				205,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "angryplank down"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pissed_plankton",
+	"position": [
+		200,
+		330
+	],
+	"healthicon": "pissed",
+	"flip_x": false,
+	"healthbar_colors": [
+		98,
+		141,
+		114
+	],
+	"camera_position": [
+		-160,
+		360
+	],
+	"sing_duration": 4,
+	"scale": 0.25
+}

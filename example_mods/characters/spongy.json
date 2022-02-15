@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-10
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "idle",
+			"indices": [],
+			"name": "sp idle"
+		},
+		{
+			"offsets": [
+				112,
+				-18
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "sp right"
+		},
+		{
+			"offsets": [
+				51,
+				-19
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "sp down"
+		},
+		{
+			"offsets": [
+				37,
+				-29
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "sp left"
+		},
+		{
+			"offsets": [
+				102,
+				-2
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singUP",
+			"indices": [],
+			"name": "sp up"
+		},
+		{
+			"offsets": [
+				55,
+				-10
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "hey",
+			"indices": [],
+			"name": "sp hey"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/spongebob-new",
+	"position": [
+		0,
+		140
+	],
+	"healthicon": "spongy",
+	"flip_x": true,
+	"healthbar_colors": [
+		240,
+		200,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

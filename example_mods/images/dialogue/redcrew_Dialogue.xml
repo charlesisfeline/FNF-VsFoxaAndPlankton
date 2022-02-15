@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="redcrew_Dialogue.png"><SubTexture name="redcrew happy0000" x="0" y="0" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew happy0001" x="889" y="0" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew happy0002" x="1778" y="0" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew happy0003" x="2667" y="0" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew happy0004" x="3556" y="0" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew happy0005" x="4445" y="0" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew happy0006" x="0" y="864" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew happy0007" x="889" y="864" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew happy0008" x="1778" y="864" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew happy0009" x="2667" y="864" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew happy0010" x="3556" y="864" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew happy0011" x="4445" y="864" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0000" x="0" y="1728" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0001" x="889" y="1728" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0002" x="1778" y="1728" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0003" x="2667" y="1728" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0004" x="3556" y="1728" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0005" x="4445" y="1728" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0006" x="0" y="2592" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0007" x="889" y="2592" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0008" x="1778" y="2592" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0009" x="2667" y="2592" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0010" x="3556" y="2592" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0011" x="4445" y="2592" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0012" x="0" y="3456" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew nervous0013" x="889" y="3456" width="889" height="864" frameX="0" frameY="0" frameWidth="889" frameHeight="864" />
+<SubTexture name="redcrew scared0000" x="1778" y="3456" width="916" height="910" frameX="0" frameY="0" frameWidth="916" frameHeight="910" />
+<SubTexture name="redcrew scared0001" x="2694" y="3456" width="916" height="910" frameX="0" frameY="0" frameWidth="916" frameHeight="910" />
+<SubTexture name="redcrew sus0000" x="3610" y="3456" width="884" height="985" frameX="0" frameY="0" frameWidth="884" frameHeight="985" />
+<SubTexture name="redcrew sus0001" x="4494" y="3456" width="884" height="985" frameX="0" frameY="0" frameWidth="884" frameHeight="985" />
+<SubTexture name="redcrew sus0002" x="0" y="4441" width="884" height="985" frameX="0" frameY="0" frameWidth="884" frameHeight="985" />
+<SubTexture name="redcrew sus0003" x="884" y="4441" width="884" height="985" frameX="0" frameY="0" frameWidth="884" frameHeight="985" />
+<SubTexture name="redcrew sus0004" x="1768" y="4441" width="884" height="985" frameX="0" frameY="0" frameWidth="884" frameHeight="985" />
+<SubTexture name="redcrew sus0005" x="2652" y="4441" width="884" height="985" frameX="0" frameY="0" frameWidth="884" frameHeight="985" />
+<SubTexture name="redcrew sus0006" x="3536" y="4441" width="884" height="985" frameX="0" frameY="0" frameWidth="884" frameHeight="985" />
+<SubTexture name="redcrew sus0007" x="4420" y="4441" width="884" height="985" frameX="0" frameY="0" frameWidth="884" frameHeight="985" />
+<SubTexture name="redcrew sus0008" x="0" y="5426" width="884" height="985" frameX="0" frameY="0" frameWidth="884" frameHeight="985" />
+<SubTexture name="redcrew sus0009" x="884" y="5426" width="884" height="985" frameX="0" frameY="0" frameWidth="884" frameHeight="985" />
+<SubTexture name="redcrew sus0010" x="1768" y="5426" width="884" height="985" frameX="0" frameY="0" frameWidth="884" frameHeight="985" />
+<SubTexture name="redcrew sus0011" x="2652" y="5426" width="884" height="985" frameX="0" frameY="0" frameWidth="884" frameHeight="985" />
+</TextureAtlas>

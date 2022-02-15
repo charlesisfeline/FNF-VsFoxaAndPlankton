@@ -1,0 +1,49 @@
+{
+	"storyName": "before the blitz",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "alley",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Bubbles",
+			"foxa",
+			[
+				255,
+				133,
+				253
+			]
+		],
+		[
+			"Burning-Flames",
+			"foxa",
+			[
+				255,
+				133,
+				253
+			]
+		],
+		[
+			"Execution",
+			"foxa-mad",
+			[
+				255,
+				133,
+				253
+			]
+		]
+	],
+	"weekCharacters": [
+		"foxa",
+		"",
+		""
+	],
+	"weekName": "VsFoxa"
+}

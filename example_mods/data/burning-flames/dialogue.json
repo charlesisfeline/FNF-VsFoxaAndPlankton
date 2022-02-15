@@ -1,0 +1,137 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "foxa",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "So,                   you're not gonna leave, huh?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "brep bappity boop (no i barely would)"
+		},
+		{
+			"speed": 0.065,
+			"portrait": "foxa",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"speed": 0.06,
+			"portrait": "foxa",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You're really making this harder than it needs to be..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "bip bep skoo de boop (please bring the bomb...)"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "bepoobe skoop (please, im waiting for him for so long)"
+		},
+		{
+			"speed": 0.23,
+			"portrait": "foxa",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "......"
+		},
+		{
+			"speed": 0.04,
+			"portrait": "foxa-angy",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Don't make me fight you...       I really DON'T want to do this..."
+		},
+		{
+			"speed": 0.035,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "bop beep (but but-)"
+		},
+		{
+			"speed": 0.04,
+			"portrait": "foxa-angy",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Please...      Just go home..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "bope bepe? (but why?)"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "foxa-angy",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Listen here, you blue haired twit..."
+		},
+		{
+			"speed": 0.03,
+			"portrait": "foxa-angy",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "If you DON'T leave,              I'll make sure you regret being born."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "foxa-angy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Mark my words..."
+		},
+		{
+			"speed": 0.06,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "beep bop bippity boop (one more rap battle pls)"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "foxa",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "foxa",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I guess I have no choice."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "oh god"
+		}
+	]
+}

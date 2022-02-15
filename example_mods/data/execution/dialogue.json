@@ -1,0 +1,46 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.03,
+			"portrait": "foxa-mad",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "I CAN'T TAKE IT ANYMORE!"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "foxa-mad",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "I GAVE YOU A WARNING, AND YOU DIDN'T TAKE IT."
+		},
+		{
+			"speed": 0.03,
+			"portrait": "foxa-mad",
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": "WHY CAN'T YOU JUST LEAVE!?"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "foxa-mad",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "IF YOU GET PAST ME, YOU WILL REGRET IT. EVEN NOW, IT WILL APPLY."
+		},
+		{
+			"speed": 0.03,
+			"portrait": "foxa-mad",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "CURSE YOU. I HOPE YOU AREN'T REMEMBERED BY ANYONE. "
+		},
+		{
+			"speed": 0.045,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "beep. (no.)"
+		}
+	]
+}

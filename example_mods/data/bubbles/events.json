@@ -1,0 +1,59 @@
+{
+	"song": {
+		"speed": 2,
+		"stage": "whitty-alley",
+		"player1": "bf",
+		"player2": "foxa",
+		"player3": null,
+		"events": [
+			[
+				66000,
+				[
+					[
+						"TweenSpin",
+						"0.2",
+						""
+					],
+					[
+						"whiteflash",
+						"",
+						""
+					],
+					[
+						"Screen Shake",
+						"1, 0.05",
+						""
+					]
+				]
+			],
+			[
+				82000,
+				[
+					[
+						"Toggle Trail",
+						"",
+						"1"
+					]
+				]
+			],
+			[
+				86000,
+				[
+					[
+						"Toggle Trail",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 120,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Bubbles"
+	}
+}

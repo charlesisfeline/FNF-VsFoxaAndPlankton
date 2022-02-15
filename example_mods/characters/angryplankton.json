@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				178,
+				10
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "angryplank idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				211,
+				6
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "angryplank left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				190,
+				-9
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "angryplank right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				189,
+				4
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "angryplank up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				205,
+				-8
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "angryplank down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/angryplank",
+	"position": [
+		200,
+		330
+	],
+	"healthicon": "angryplankton",
+	"flip_x": false,
+	"healthbar_colors": [
+		98,
+		141,
+		114
+	],
+	"camera_position": [
+		-150,
+		360
+	],
+	"sing_duration": 4,
+	"scale": 0.25
+}

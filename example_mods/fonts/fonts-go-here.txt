@@ -1,0 +1,2 @@
+[start]    setTextFont("yourObjectTag", "krabby.ttf")
+[end]
