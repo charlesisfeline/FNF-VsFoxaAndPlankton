@@ -1015,11 +1015,51 @@ class PlayState extends MusicBeatState
 		add(iconP2);
 		reloadHealthBarColors();
 
-		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
-		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		scoreTxt.scrollFactor.set();
-		scoreTxt.borderSize = 1.25;
-		scoreTxt.visible = !ClientPrefs.hideHud;
+		var credits:String;
+		switch (SONG.song.toLowerCase())
+		{
+			case 'supernovae':
+				credits = 'Original Song made by ArchWk!';
+			case 'glitch':
+				credits = 'Original Song made by DeadShadow and PixelGH!';
+			case 'bubbles' | 'burning-flames' | 'execution':
+				credits = 'Original Song made by Foxa the Artist!';
+			case 'debug-two':
+				credits = "Screw you. You're done.";
+			case 'chum-bucket':
+				credits = 'Original Song made by JoerOnTheBlower / COOLDUDE2009';
+			case 'debug':
+				credits = 'Screw you!';
+			case 'tutorial':
+				credits = 'What the hell!';
+			default:
+				credits = '';
+		}
+		var creditsText:Bool = credits != '';
+		var textYPos:Float = healthBarBG.y + 50;
+		if (creditsText)
+		{
+			textYPos = healthBarBG.y + 30;
+		}
+		// totally didnt took this from KE (sorry)
+		var songWatermark = new FlxText(4, textYPos, 0,
+		SONG.song
+		+ " "
+		+ (curSong.toLowerCase() != 'chum-bucket' ? (storyDifficulty == 3 ? "- HARD" : storyDifficulty == 2 ? "- HARD" : storyDifficulty == 1 ? "- NORMAL" : "- EASY") : "- HARD")
+		+ " - Blitz Engine", 16);
+		//+ " ", 16);
+		songWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		songWatermark.scrollFactor.set();
+		add(songWatermark);
+		if (creditsText)
+		{
+			var creditsWatermark = new FlxText(4, healthBarBG.y + 50, 0, credits, 16);
+			creditsWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			creditsWatermark.scrollFactor.set();
+			add(creditsWatermark);
+			creditsWatermark.cameras = [camHUD];
+		}
+
 		add(scoreTxt);
 
 		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "BOTPLAY", 32);
@@ -2378,18 +2418,16 @@ class PlayState extends MusicBeatState
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
 
-		var mult:Float = FlxMath.lerp(1, iconP1.scale.x, CoolUtil.boundTo(1 - (elapsed * 9), 0, 1));
-		iconP1.scale.set(mult, mult);
-		iconP1.updateHitbox();
+		iconP1.centerOffsets();
+        iconP2.centerOffsets();
 
-		var mult:Float = FlxMath.lerp(1, iconP2.scale.x, CoolUtil.boundTo(1 - (elapsed * 9), 0, 1));
-		iconP2.scale.set(mult, mult);
-		iconP2.updateHitbox();
+        iconP1.updateHitbox();
+        iconP2.updateHitbox();
 
 		var iconOffset:Int = 26;
 
-		iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
-		iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (150 * iconP2.scale.x) / 2 - iconOffset * 2;
+		iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01) - iconOffset);
+		iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (iconP2.width - iconOffset);
 
 		if (health > 2)
 			health = 2;
@@ -3618,7 +3656,7 @@ for (key => value in luaShaders)
 							sortedNotesList.push(daNote);
 							//notesDatas.push(daNote.noteData);
 						}
-						canMiss = true;
+						canMiss = false;
 					}
 				});
 				sortedNotesList.sort((a, b) -> Std.int(a.strumTime - b.strumTime));
@@ -4311,6 +4349,32 @@ for (key => value in luaShaders)
 		if (curBeat % gfSpeed == 0 && !gf.stunned && gf.animation.curAnim.name != null && !gf.animation.curAnim.name.startsWith("sing"))
 		{
 			gf.dance();
+			
+		}
+
+		var funny:Float = (healthBar.percent * 0.01) + 0.01;
+
+		//health icon bounce but epic
+		if (curBeat % gfSpeed == 0) {
+			curBeat % (gfSpeed * 2) == 0 ? {
+				iconP1.scale.set(1.1, 0.8);
+				iconP2.scale.set(1.1, 1.3);
+
+				FlxTween.angle(iconP1, -15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
+				FlxTween.angle(iconP2, 15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
+			} : {
+				iconP1.scale.set(1.1, 1.3);
+				iconP2.scale.set(1.1, 0.8);
+
+				FlxTween.angle(iconP2, -15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
+				FlxTween.angle(iconP1, 15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
+			}
+
+			FlxTween.tween(iconP1, {'scale.x': 1, 'scale.y': 1}, Conductor.crochet / 1250 * gfSpeed, {ease: FlxEase.quadOut});
+			FlxTween.tween(iconP2, {'scale.x': 1, 'scale.y': 1}, Conductor.crochet / 1250 * gfSpeed, {ease: FlxEase.quadOut});
+
+			iconP1.updateHitbox();
+			iconP2.updateHitbox();
 		}
 
 		if(curBeat % 2 == 0) {
