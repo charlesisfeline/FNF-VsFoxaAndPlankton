@@ -85,6 +85,12 @@ class CreditsState extends MusicBeatState
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',					'https://twitter.com/river_oaken',		'C30085'],
 			['bb-panzu',			'bb-panzu',			'Additional Programmer of Psych Engine',				'https://twitter.com/bbsub3',			'389A58'],
 			[''],
+			['VsFoxa&Plankton Team'],
+			['Charles',		        'charles',		    'Programmer of the Mod',						'https://twitter.com/Shadow_Mario_',	'444444'],
+			['COOLDUDE2009',			'joer',		'Artist/Animator/Composer of Plankton Week',					'https://twitter.com/river_oaken',		'C30085'],
+		    ['Foxa the Artist',			'foxa',			'Artist/Animator/Composer of Foxa Week',				'https://twitter.com/bbsub3',			'389A58'],
+			['sock.clip',			'sockclip',			'Whitty Stuff',				'https://twitter.com/bbsub3',			'389A58'],
+			[''],
 			['Engine Contributors'],
 			['shubs',				'shubs',			'New Input System Programmer',							'https://twitter.com/yoshubs',			'4494E6'],
 			['SqirraRNG',			'gedehari',			'Chart Editor\'s Sound Waveform base',					'https://twitter.com/gedehari',			'FF9300'],
@@ -92,11 +98,9 @@ class CreditsState extends MusicBeatState
 			['PolybiusProxy',		'polybiusproxy',	'.MP4 Video Loader Extension',							'https://twitter.com/polybiusproxy',	'FFEAA6'],
 			['Keoiki',				'keoiki',			'Note Splash Animations',								'https://twitter.com/Keoiki_',			'FFFFFF'],
 			['Smokey',				'smokey',			'Spritemap Texture Support',							'https://twitter.com/Smokey_5_',		'0033CC'],
-			/* SHADER PEOPLE. ADDING EM IN ONCE IT'S FINISHEDDD
 			['kem0x',				'kem0x',			'External Shader Support',								'https://twitter.com/Smokey_5_',		'0033CC'],
 			['SqirraRNG',			'gedehari',			'Runtime shaders workaround.',							'https://twitter.com/Smokey_5_',		'0033CC'],
 			['Fireable',			'fireable',			'Lua Implementation',									'https://twitter.com/Smokey_5_',		'0033CC'],
-			*/
 			
 			[''],
 			[''],
