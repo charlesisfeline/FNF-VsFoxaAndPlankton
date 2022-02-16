@@ -1015,6 +1015,13 @@ class PlayState extends MusicBeatState
 		add(iconP2);
 		reloadHealthBarColors();
 
+		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
+		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		scoreTxt.scrollFactor.set();
+		scoreTxt.borderSize = 1.25;
+		scoreTxt.visible = !ClientPrefs.hideHud;
+		add(scoreTxt);
+
 		var credits:String;
 		switch (SONG.song.toLowerCase())
 		{
@@ -1041,16 +1048,6 @@ class PlayState extends MusicBeatState
 		{
 			textYPos = healthBarBG.y + 30;
 		}
-		// totally didnt took this from KE (sorry)
-		var songWatermark = new FlxText(4, textYPos, 0,
-		SONG.song
-		+ " "
-		+ (curSong.toLowerCase() != 'chum-bucket' ? (storyDifficulty == 3 ? "- HARD" : storyDifficulty == 2 ? "- HARD" : storyDifficulty == 1 ? "- NORMAL" : "- EASY") : "- HARD")
-		+ " - Blitz Engine", 16);
-		//+ " ", 16);
-		songWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		songWatermark.scrollFactor.set();
-		add(songWatermark);
 		if (creditsText)
 		{
 			var creditsWatermark = new FlxText(4, healthBarBG.y + 50, 0, credits, 16);
@@ -1059,9 +1056,7 @@ class PlayState extends MusicBeatState
 			add(creditsWatermark);
 			creditsWatermark.cameras = [camHUD];
 		}
-
-		add(scoreTxt);
-
+		
 		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "BOTPLAY", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
