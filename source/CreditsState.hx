@@ -86,7 +86,7 @@ class CreditsState extends MusicBeatState
 			['bb-panzu',			'bb-panzu',			'Additional Programmer of Psych Engine',				'https://twitter.com/bbsub3',			'389A58'],
 			[''],
 			['VsFoxa&Plankton Team'],
-			['Charles',		        'charles',		    'Programmer of the Mod',						'https://twitter.com/Shadow_Mario_',	'444444'],
+			['Charles',		        'charlescat',		    'Programmer of the Mod',						'https://twitter.com/Shadow_Mario_',	'444444'],
 			['COOLDUDE2009',			'joer',		'Artist/Animator/Composer of Plankton Week',					'https://twitter.com/river_oaken',		'C30085'],
 		    ['Foxa the Artist',			'foxa',			'Artist/Animator/Composer of Foxa Week',				'https://twitter.com/bbsub3',			'389A58'],
 			['sock.clip',			'sockclip',			'Whitty Stuff',				'https://twitter.com/bbsub3',			'389A58'],
