@@ -17,14 +17,14 @@ class SusState extends FlxState
         super.create();
 
         sus = new FlxSprite(0, 0);
-        sus.loadGraphic(Paths.image("secret/youactuallythoughttherewasasecrethere", "shared"));
+        sus.loadGraphic(Paths.image("secret/youactuallythoughttherewasasecrethere", "preload"));
         add(sus);
         new FlxTimer().start(10, jumpscare);
     }
     public function jumpscare(bruh:FlxTimer = null)
     {
-        sus.loadGraphic(Paths.image("secret/scary", "shared"));
-        FlxG.sound.play(Paths.sound("jumpscare", "preload"), 1, false);
+        sus.loadGraphic(Paths.image("secret/scary", "preload"));
+        FlxG.sound.play(Paths.sound("scrollMenu", "preload"), 1, false);
         new FlxTimer().start(0.6, closeGame);
     }
     public function closeGame(time:FlxTimer = null)

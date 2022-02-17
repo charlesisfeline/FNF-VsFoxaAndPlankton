@@ -2405,11 +2405,24 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		if (FlxG.keys.anyJustPressed(debugKeysChart) && !endingSong && !inCutscene)
-		{
-			openChartEditor();
-		}
+		if (FlxG.keys.justPressed.SEVEN && !endingSong && !inCutscene)
+			{
+				switch (curSong.toLowerCase())
+				{
+					case 'supernovae' | 'glitch':
+						PlayState.SONG = Song.loadFromJson("debug", "debug"); // you dun f-cked up
+						FlxG.switchState(new PlayState());
+						return;
+						// FlxG.switchState(new VideoState('assets/videos/fortnite/fortniteballs.webm', new CrasherState()));
+					case 'debug':
+						FlxG.switchState(new SusState());
+						return;
+					default:
+                        openChartEditor();
+				}
+			}
 
+		}
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
 
