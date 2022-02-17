@@ -23,7 +23,7 @@ class MemoryCounter extends TextField
 		x = inX;
 		y = inY;
 		selectable = false;
-		defaultTextFormat = new TextFormat("_sans", 12, inCol);
+		defaultTextFormat = new TextFormat(Paths.font("vcr.ttf"), 20, inCol, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 
 		addEventListener(Event.ENTER_FRAME, onEnter);
 		width = 150;
@@ -38,7 +38,7 @@ class MemoryCounter extends TextField
 
 		if (visible)
 		{
-			text = "\nMEM: " + mem + " MB\nMEM peak: " + memPeak + " MB";
+			text = "\nRAM Used: " + mem + " MB;
 		}
 	}
 }
