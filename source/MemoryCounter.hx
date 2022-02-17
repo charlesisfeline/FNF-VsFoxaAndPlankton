@@ -1,6 +1,8 @@
 package;
 
 import haxe.Timer;
+import flixel.text.FlxText;
+import flixel.util.FlxColor;
 import openfl.display.FPS;
 import openfl.events.Event;
 import openfl.system.System;

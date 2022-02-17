@@ -1,6 +1,8 @@
 package openfl.display;
 
 import haxe.Timer;
+import flixel.text.FlxText;
+import flixel.util.FlxColor;
 import openfl.events.Event;
 import openfl.text.TextField;
 import openfl.text.TextFormat;
