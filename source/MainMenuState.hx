@@ -241,11 +241,6 @@ class MainMenuState extends MusicBeatState
 										MusicBeatState.switchState(new AchievementsMenuState());
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());
-									case: 'debug':
-									    PlayState.SONG = Song.loadFromJson('debug', 'debug');
-									    PlayState.isStoryMode = true;
-									    PlayState.storyDifficulty = 1;
-									    LoadingState.loadAndSwitchState(new PlayState());
 									case 'options':
 										LoadingState.loadAndSwitchState(new options.OptionsState());
 								}
