@@ -1,4 +1,16 @@
 {
+	"storyName": "VS PLANKTON",
+	"difficulties": "HARD",
+	"hideFreeplay": false,
+	"weekBackground": "PLANKTON",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"CHUM-BUCKET",
@@ -8,24 +20,21 @@
 				255,
 				0
 			]
+		],
+		[
+			"formula",
+			"angryplankton",
+			[
+				146,
+				113,
+				253
+			]
 		]
 	],
-	"hideFreeplay": false,
-	"weekBackground": "PLANKTON",
-	"difficulties": "HARD",
 	"weekCharacters": [
 		"",
 		"",
 		""
 	],
-	"storyName": "VS PLANKTON",
-	"weekName": "VS PLANKTON",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
-	"hideStoryMode": false,
-	"weekBefore": "tutorial",
-	"startUnlocked": true
+	"weekName": "VS PLANKTON"
 }
