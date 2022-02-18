@@ -1,8 +1,6 @@
 package;
 
 import haxe.Timer;
-import flixel.text.FlxText;
-import flixel.util.FlxColor;
 import openfl.display.FPS;
 import openfl.events.Event;
 import openfl.system.System;
@@ -25,7 +23,7 @@ class MemoryCounter extends TextField
 		x = inX;
 		y = inY;
 		selectable = false;
-		defaultTextFormat = new TextFormat(Paths.font("vcr.ttf"), 20, inCol, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		defaultTextFormat = new TextFormat("_sans", 12, inCol);
 
 		addEventListener(Event.ENTER_FRAME, onEnter);
 		width = 150;
