@@ -53,8 +53,8 @@ class EditorLua {
 		var result:Dynamic = LuaL.dofile(lua, script);
 		var resultStr:String = Lua.tostring(lua, result);
 		if(resultStr != null && result != 0) {
-			lime.app.Application.current.window.alert(resultStr, 'Error on .LUA script!');
-			trace('Error on .LUA script! ' + resultStr);
+			lime.app.Application.current.window.alert(resultStr, 'lua script has error, i am 20 feet from your home, and approaching rapidly. now START RUNNING.');
+			trace('no, error got like ' + resultStr);
 			lua = null;
 			return;
 		}
