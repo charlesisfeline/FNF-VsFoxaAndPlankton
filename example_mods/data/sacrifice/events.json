@@ -1,0 +1,34 @@
+{
+	"song": {
+		"speed": 1.3,
+		"stage": "whitty-alley",
+		"player1": "bf",
+		"player2": "foxa",
+		"player3": null,
+		"events": [
+			[
+				64000,
+				[
+					[
+						"whiteflash",
+						"",
+						""
+					],
+					[
+						"Change Character",
+						"dad",
+						"foxa-christmas"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 120,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Sacrifice"
+	}
+}
