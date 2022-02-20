@@ -90,6 +90,8 @@ class CreditsState extends MusicBeatState
 			['COOLDUDE2009',			'joer',		'Artist/Animator/Composer of Plankton Week',					'https://twitter.com/river_oaken',		'C30085'],
 		    ['Foxa the Artist',			'foxa',			'Artist/Animator/Composer of Foxa Week',				'https://twitter.com/bbsub3',			'389A58'],
 			['sock.clip',			'sockclip',			'Whitty Stuff',				'https://twitter.com/bbsub3',			'389A58'],
+			['Beta testers',			'fans',			'All those beta testers out there',				'https://twitter.com/bbsub3',			'389A58'],
+			['Viacom',			'viacom',			'Owner of Nick and SpongeBob',				'https://twitter.com/bbsub3',			'389A58'],
 			[''],
 			['Engine Contributors'],
 			['shubs',				'shubs',			'New Input System Programmer',							'https://twitter.com/yoshubs',			'4494E6'],

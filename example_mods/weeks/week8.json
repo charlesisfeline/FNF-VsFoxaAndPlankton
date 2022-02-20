@@ -2,7 +2,7 @@
 	"storyName": "before the blitz",
 	"difficulties": "",
 	"hideFreeplay": false,
-	"weekBackground": "alley",
+	"weekBackground": "stage",
 	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
@@ -34,14 +34,23 @@
 			"Execution",
 			"foxa-mad",
 			[
-				255,
-				133,
-				253
+				115,
+				0,
+				0
+			]
+		],
+		[
+			"Sacrifice",
+			"foxa",
+			[
+				115,
+				0,
+				0
 			]
 		]
 	],
 	"weekCharacters": [
-		"foxa",
+		"",
 		"",
 		""
 	],

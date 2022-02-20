@@ -1,0 +1,40 @@
+{
+	"storyName": "What the hell!",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "plankton",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Supernovae",
+			"karen",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Glitch",
+			"karen",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "karen"
+}
