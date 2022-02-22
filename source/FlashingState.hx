@@ -25,7 +25,7 @@ class FlashingState extends MusicBeatState
 
 		warnText = new FlxText(0, 0, FlxG.width,
 			"If you want,\n
-			join the official Discord community\n
+			you can join the official Discord community\n
 			for some mod updates and stuff!\n",
 			32);
 		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
