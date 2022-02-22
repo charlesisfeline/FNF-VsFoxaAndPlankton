@@ -2415,7 +2415,7 @@ class PlayState extends MusicBeatState
 						return;
 						// FlxG.switchState(new VideoState('assets/videos/fortnite/fortniteballs.webm', new CrasherState()));
 					case 'debug':
-						FlxG.switchState(new SusState());
+						FlxG.switchState(new YouCheatedSomeoneIsComing());
 						return;
 					default:
                         openChartEditor();

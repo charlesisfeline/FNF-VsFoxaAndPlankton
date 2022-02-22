@@ -24,9 +24,9 @@ class FlashingState extends MusicBeatState
 		add(bg);
 
 		warnText = new FlxText(0, 0, FlxG.width,
-			"Hey, this mod is not done yet!\n
-			Some things are unfinished like the weeks and stuff.
-			Remember, be aware of the bugs and glitches!",
+			"If you want,\n
+			join the official Discord community\n
+			for some mod updates and stuff!\n",
 			32);
 		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
@@ -45,6 +45,7 @@ class FlashingState extends MusicBeatState
 					FlxG.sound.play(Paths.sound('confirmMenu'));
 					FlxFlicker.flicker(warnText, 1, 0.1, false, true, function(flk:FlxFlicker) {
 						new FlxTimer().start(0.5, function (tmr:FlxTimer) {
+							CoolUtil.browserLoad('https://discord.gg/PsDYjdKjEa');
 							MusicBeatState.switchState(new TitleState());
 						});
 					});

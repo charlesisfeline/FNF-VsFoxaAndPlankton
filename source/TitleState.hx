@@ -589,7 +589,7 @@ class TitleState extends MusicBeatState
 					#if PSYCH_WATERMARKS
 					addMoreText('Shadow Mario', 15);
 					addMoreText('RiverOaken', 15);
-					addMoreText('bb-panzu', 15);
+					addMoreText('bb-panzu? and shubs', 15);
 					#else
 					addMoreText('present');
 					#end
