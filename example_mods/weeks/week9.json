@@ -1,40 +1,49 @@
 {
-	"storyName": "VS PLANKTON",
+	"storyName": "plan f for funkin",
 	"difficulties": "HARD",
 	"hideFreeplay": false,
 	"weekBackground": "PLANKTON",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"CHUM-BUCKET",
 			"PLANKTON",
 			[
 				0,
-				255,
-				0
+				75,
+				20
 			]
 		],
 		[
 			"formula",
 			"angryplankton",
 			[
-				146,
-				113,
-				253
+				0,
+				75,
+				20
+			]
+		],
+		[
+			"plan-z",
+			"plankbot",
+			[
+				0,
+				75,
+				20
 			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"weekName": "VS PLANKTON"
+	"hideStoryMode": false,
+	"weekName": "Plankton!"
 }
