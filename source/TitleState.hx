@@ -161,6 +161,8 @@ class TitleState extends MusicBeatState
 		FlxG.sound.volumeUpKeys = volumeUpKeys;
 		FlxG.keys.preventDefaultKeys = [TAB];
 
+		trace("game started!");
+
 		PlayerSettings.init();
 
 		curWacky = FlxG.random.getObject(getIntroTextShit());
@@ -603,8 +605,7 @@ class TitleState extends MusicBeatState
 				case 5:
 					createCoolText(['In association', 'with'], -40);
 				case 7:
-					addMoreText('Niresova', -40);
-					ngSpr.visible = true;
+					addMoreText('the Discord community', -40);
 				// credTextShit.text += '\nNewgrounds';
 				case 8:
 					deleteCoolText();
