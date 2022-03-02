@@ -28,9 +28,9 @@ using StringTools;
 
 class MusicPlayerState extends MusicBeatState
 {
-    var songs:Array<PlaySongMetadata> = [PlaySongMetadata];
+    var songs:Array<PlaySongMetadata> = PlaySongMetadata;
     private var grpSongs:FlxTypedGroup<Alphabet>;
-    private var iconArray:Array<HealthIcon> = [HealthIcon];
+    private var iconArray:Array<HealthIcon> = HealthIcon;
     var curSelected:Int = 0;
     var CurVocals:FlxSound;
     var currentlyplaying:Bool = false;
@@ -122,11 +122,11 @@ class MusicPlayerState extends MusicBeatState
     {
         super.update(elapsed);
 
-        var upP = controls.UP_P;
-		var downP = controls.DOWN_P;
+        var upP = controls.UI_UP_P;
+		var downP = controls.UI_DOWN_P;
 
-        var leftP = controls.LEFT_P;
-		var rightP = controls.RIGHT_P;
+        var leftP = controls.UI_LEFT_P;
+		var rightP = controls.UI_RIGHT_P;
 		var accepted = controls.ACCEPT;
 
 
@@ -271,11 +271,11 @@ class MusicPlayerState extends MusicBeatState
                     CurVocals.play();
                     FlxG.sound.list.add(CurVocals);
                 }
-                else
+                /*else
                 {
                     currentlyplaying = true;
                     FlxG.sound.playMusic(Paths.externmusic(songs[curSelected].songName), 1,true);
-                }
+                }*/
 
                 var bullShit:Int = 0;
 
