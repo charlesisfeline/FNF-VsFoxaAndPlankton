@@ -61,7 +61,7 @@ class MusicPlayerState extends MusicBeatState
         }
 
         bg = new FlxSprite().loadGraphic(Paths.image('menuBG'));
-        bg.loadGraphic(Paths.image('menuBG');
+        bg.loadGraphic(Paths.image('menuBG'));
         bg.color = 0xFFFD719B;
 		add(bg);
 
