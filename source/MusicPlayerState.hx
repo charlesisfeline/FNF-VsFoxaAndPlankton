@@ -28,9 +28,9 @@ using StringTools;
 
 class MusicPlayerState extends MusicBeatState
 {
-    var songs:Array<PlaySongMetadata> = ['bubbles', 'burning-flames', 'execution', 'sacrifice', 'chum-bucket', 'formula', 'plan-z'];
+    var songs:Array<PlaySongMetadata> = [PlaySongMetadata];
     private var grpSongs:FlxTypedGroup<Alphabet>;
-    private var iconArray:Array<HealthIcon> = ['foxa', 'plankton'];
+    private var iconArray:Array<HealthIcon> = [HealthIcon];
     var curSelected:Int = 0;
     var CurVocals:FlxSound;
     var currentlyplaying:Bool = false;
@@ -246,7 +246,7 @@ class MusicPlayerState extends MusicBeatState
             }
             else
             {
-                FlxG.switchState(new ExtrasMenuState());
+                FlxG.switchState(new MainMenuState());
             }
         }
         if (accepted)
