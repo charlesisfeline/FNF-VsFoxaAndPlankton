@@ -1,0 +1,7 @@
+internal,bubbles,foxa,good
+internal,burning-flames,foxa,bad
+internal,execution,foxa,bad
+internal,sacrifice,foxa,good
+internal,chum-bucket,plankton,good
+internal,formula,plankton,bad
+internal,plan-z,plankton,bad
