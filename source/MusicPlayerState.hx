@@ -28,9 +28,9 @@ using StringTools;
 
 class MusicPlayerState extends MusicBeatState
 {
-    var songs:Array<PlaySongMetadata> = [bubbles, burning-flames, execution, sacrifice, chum-bucket, formula, plan-z];
+    var songs:Array<PlaySongMetadata> = ['bubbles', 'burning-flames', 'execution', 'sacrifice', 'chum-bucket', 'formula', 'plan-z'];
     private var grpSongs:FlxTypedGroup<Alphabet>;
-    private var iconArray:Array<HealthIcon> = [foxa, plankton];
+    private var iconArray:Array<HealthIcon> = ['foxa', 'plankton'];
     var curSelected:Int = 0;
     var CurVocals:FlxSound;
     var currentlyplaying:Bool = false;
